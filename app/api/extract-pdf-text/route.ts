@@ -10,11 +10,11 @@ export const config = {
 };
 
 export async function POST(request: Request) {
-  // Usar formidable para parsear los datos del formulario
   const form = formidable({ multiples: false });
 
   return new Promise((resolve, reject) => {
-    form.parse(request as any, async (err, fields, files) => { // Hacemos un "cast" a `any` para evitar el error
+    // Usamos el objeto `form` de formidable para parsear la solicitud
+    form.parse(request as any, async (err, fields, files) => {
       if (err || !files.file) {
         console.error("❌ Error al parsear archivo", err);
         return resolve(NextResponse.json({ error: 'No se pudo leer el archivo' }, { status: 400 }));
