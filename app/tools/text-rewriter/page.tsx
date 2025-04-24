@@ -1,3 +1,5 @@
+'use client';
+
 import { useState, useEffect } from 'react';
 import BackHome from '@/components/CVTemplates/BackHome';
 

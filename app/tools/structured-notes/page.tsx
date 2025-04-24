@@ -1,3 +1,5 @@
+'use client';
+
 import { useState, useRef } from 'react';
 import BackHome from '@/components/CVTemplates/BackHome';
 import html2canvas from 'html2canvas';
