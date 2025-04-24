@@ -15,7 +15,7 @@ export default function Navbar() {
       <nav className="fixed top-0 left-0 w-full bg-blue-600 text-white shadow-md z-20">
         <div className="flex items-center justify-between p-4">
           {/* Logo o nombre de la página */}
-          <Link href="/" className="text-2xl font-bold">IATools</Link>
+          <Link href="/" className="text-2xl font-bold">Tool AI</Link>
           {/* Botón de contacto (en móvil o si lo prefieres visible siempre) */}
           <Link href="/contact">
             <button className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700">
