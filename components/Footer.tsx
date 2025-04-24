@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-4 sm:grid-cols-2 gap-8 text-sm">
         {/* Marca */}
         <div>
-          <h3 className="text-lg font-bold text-blue-600 mb-2">IATools</h3>
+          <h3 className="text-lg font-bold text-blue-600 mb-2">Tool AI</h3>
           <p className="text-gray-600">
             Herramientas con inteligencia artificial para mejorar tu productividad, creatividad y aprendizaje.
           </p>
@@ -34,14 +34,14 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-2">Contacto</h4>
           <ul className="space-y-1">
-            <li><a href="mailto:soporte@iatools.com" className="hover:underline">soporte@iatools.com</a></li>
+            <li><a href="mailto:soporte@iatools.com" className="hover:underline">soporte@toolai.es</a></li>
             <li><a href="/contact" className="hover:underline">Formulario de contacto</a></li>
           </ul>
         </div>
       </div>
 
       <div className="text-center text-xs text-gray-500 mt-10">
-        © {new Date().getFullYear()} IATools. Todos los derechos reservados.
+        © {new Date().getFullYear()} ToolAI. Todos los derechos reservados.
       </div>
     </footer>
   );

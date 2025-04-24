@@ -2,24 +2,24 @@
 
 import Head from 'next/head';
 
-export default function HomePage() {
+export default function WorkingOnIt() {
   return (
     <>
       <Head>
-        <title>IATools - Herramientas Inteligentes para Mejorar tu Productividad</title>
-        <meta name="description" content="Genera ideas, automatiza tareas y mejora tu productividad con herramientas basadas en inteligencia artificial." />
+        <title>Trabajando en el Sitio - Tool AI</title>
+        <meta name="description" content="Estamos mejorando el sitio para brindarte una mejor experiencia. Vuelve pronto para explorar todas las herramientas." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="max-w-6xl mx-auto px-4 py-10">
-        <h1 className="text-4xl font-bold mb-6 text-center">🧰 Herramientas con IA</h1>
-        <p className="text-center text-gray-600 mb-12">
-          Explora una colección de herramientas que usan inteligencia artificial para ayudarte a trabajar, estudiar o crear.
+      <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center text-center p-6">
+        <h1 className="text-5xl font-bold text-blue-600 mb-4">🚧 Estamos trabajando en ello...</h1>
+        <p className="text-xl text-gray-600 mb-6">
+          Estamos mejorando el sitio para brindarte una mejor experiencia. Vuelve pronto para explorar todas las herramientas.
         </p>
-
-        <div className="space-y-12">
-          {/* Aquí puedes añadir las secciones de herramientas como lo hacías antes */}
-        </div>
+        <div className="w-32 h-32 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mb-6"></div>
+        <p className="text-lg text-gray-500">
+          ¡Gracias por tu paciencia!
+        </p>
       </div>
     </>
   );
