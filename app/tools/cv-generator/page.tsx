@@ -1,5 +1,3 @@
-'use client';
-
 import { useState, useRef } from 'react';
 import BackHome from '@/components/CVTemplates/BackHome';
 import CVPreview from '@/components/CVTemplates/CVPreview';
